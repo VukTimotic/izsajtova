@@ -1,0 +1,176 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    float: right;
+    margin-right: 30px;
+}
+nav{
+    width: 100%;
+    max-width: 3000px;
+    height: 100px;
+    background-color: #4A246D;
+
+}
+nav > ul > li{
+    color: white;
+    margin-right: 100px;
+    padding: 20px;
+    display: block;
+    font-size: 30px;
+    font-style:normal;
+    
+}
+
+nav > ul > li:hover{
+
+     background-color: #7E57A3;
+     color: white;
+     cursor: pointer;
+     
+}
+
+.navbar{
+    padding-bottom: -100px;
+    width: 100%;
+   
+}
+
+li > a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 18px; 
+    margin-left: 250px;
+    
+}
+.container{
+    width: 100%;
+    height: auto;
+   position: relative;
+}
+
+.container img{
+    width: 100%;
+}
+
+#ldg{
+    margin-top: -4px;
+    margin-bottom: 4px;
+}
+
+.usluge{
+    background-image: url(slike/pozadina.jpg);
+    width: 100%;
+    height: auto;
+    margin-top: -45px;
+    margin-bottom: 45px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.usluge img{
+    display: inline-block;
+    width: 33%;
+    height: auto;
+    text-align: center;
+    margin-top: -40px;
+    margin-bottom: 40px;
+    
+}
+
+.usluge h3{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    background-color: #4A246D;
+
+}
+
+.usluge img:hover{
+    background-color: #7E57A3;
+    cursor: pointer;
+}
+
+.usluge h3:hover{
+    background-color: #7E57A3;
+     color: white;
+     cursor: pointer;
+}
+.uso{
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    background-color: #4A246D ;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.uso p:hover{
+    background-color: #7E57A3;
+     color: white;
+}
+
+.projekti{
+    background-image: url(slike/pozadina.jpg);
+    width: 100%;
+    height: auto;
+    margin-top: -45px;
+    margin-bottom: 45px;
+    text-align: center;
+    color: white;
+    font-size: 30px;}
+
+    .projekti img{
+        display: inline-block;
+        width: 33%;
+        height: auto;
+        text-align: center;
+       }
+       .projekti img:hover{
+        cursor: pointer;
+       }
+
+
+       .onama{
+        background-image: url(slike/pozadina.jpg);
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-bottom: -20px;
+        text-align: center;
+        color: white;
+        font-size: 30px;}
+    
+        .onama img{
+            display: inline-block;
+        width: 33%;
+        height: auto;
+        text-align: center;
+           }
+
+           .kontakt{
+            background-image: url(slike/pozadina.jpg);
+            width: 100%;
+            height: auto;
+            margin-top: 20px;
+            margin-bottom: -20px;
+            text-align: center;
+            color: white;
+            font-size: 30px;}
+        
+            .kontakt img{
+                display: inline-block;
+            width: auto;
+            height: auto;
+               }
+
+
